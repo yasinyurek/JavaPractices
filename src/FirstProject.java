@@ -24,7 +24,7 @@ public class FirstProject {
 
         // -- TAKSİMETRE --//
 
-        double distance;
+      /* double distance;
         double price;
         double startPrice = 10;
         double kmPrice = 2.20;
@@ -38,17 +38,27 @@ public class FirstProject {
         if (price <= 20)
             System.out.println(" Ücret = 20 TL");
         else
-        System.out.print("Ücret :" +price);
+        System.out.print("Ücret :" +price); */
 
 
 
+        // -- Vücut Kitle Indeksi --//
+
+        double boy;
+        double kilo;
+        double index;
 
 
 
+        System.out.print("Lütfen boyunuzu (metre cinsinde) giriniz :");
+        boy = input.nextDouble();
 
+        System.out.print("Lütfen kilonuzu giriniz :");
+        kilo = input.nextDouble();
 
+        index = kilo /(boy *boy);
 
-
+        System.out.print("Vücut Kitle İndeksiniz :" + index);
 
 
     }
